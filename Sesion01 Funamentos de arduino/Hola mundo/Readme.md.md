@@ -16,7 +16,7 @@ Una resistencia es un componente electrónico que se utiliza para limitar la cor
 ### LED
 
 Un LED es un diodo emisor de luz. Los LEDs se utilizan para generar luz cuando se aplica una corriente eléctrica. Los LEDs tienen dos terminales: el ánodo y el cátodo. El ánodo es el terminal positivo y el cátodo es el terminal negativo. Para conectar un LED a Arduino, el ánodo debe conectarse al pin de Arduino y el cátodo debe conectarse al pin GND.
-![Led](img/imagen%20led.jpg)
+![<img>](img/imagen%20led.jpg)
 
 ### Arduino
 
