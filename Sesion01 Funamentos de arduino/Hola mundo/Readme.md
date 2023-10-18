@@ -35,4 +35,36 @@ Arduino es una plataforma de hardware y software de código abierto para la crea
 4. El cátodo (negativo) del LED debe conectarse al GND del Arduino mediante un cable de conexión. Este pin sirve como conexión a tierra.
 ![Imagen4](img/Imagen4.jpg)
 
-## Código
+## Programacion
+
+1. Abre el Arduino IDE y crea un nuevo Sketch
+2. Conecta tu arduino UNO a tu computadora mediante el cable USB
+3. En la pestañas superiores busca la pestaña herramientas, ve a la opcion **Placa**, selecciona **Arduino AVR Boards**, y finalmente selecciona **Arduino Uno. (Herramientas->Placa->Arduino AVR Boards->Arduino Uno)**.
+![Imagen5](img/Imagen6.jpg)
+4. DE igual manera en la pestaña de herramientas, ve a la opcion **Puerto** y selecciona el puerto **COM** donde esta conectado. **(Herramientas->Puerto->COM#)**
+![Imagen6](img/Imagen7.png)
+5. Ingresa el siguiente codigo
+
+    ```arduino
+
+    int led = 13;
+    void setup()
+    {
+    pinMode(led, OUTPUT);
+    }
+
+    void loop()
+    {
+    digitalWrite(led, HIGH);
+    }
+    ```
+
+6. Una vez escrito el codigo hay que verificarlo en el boton **Verficar** para comprobar que no haya errores de sintaxis
+![Imagen8](img/Imagen8.png)
+![Imagen9](img/Imagen9.png)
+
+7. Una vez verificado, haremos click en el boton de cargar
+![Imagen10](img/Imagen10.png)
+![Imagen11](img/Imagen11.png)
+
+8. Comprobar que en tu placa Arduino encienda el LED
