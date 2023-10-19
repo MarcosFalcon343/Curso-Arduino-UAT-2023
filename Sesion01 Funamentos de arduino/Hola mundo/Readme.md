@@ -37,13 +37,13 @@ Arduino es una plataforma de hardware y software de código abierto para la crea
 
 ## Programacion
 
-1. Abre el Arduino IDE y crea un nuevo Sketch
-2. Conecta tu arduino UNO a tu computadora mediante el cable USB
-3. En la pestañas superiores busca la pestaña herramientas, ve a la opcion **Placa**, selecciona **Arduino AVR Boards**, y finalmente selecciona **Arduino Uno. (Herramientas->Placa->Arduino AVR Boards->Arduino Uno)**.
+1. Abre el Arduino IDE y crea un nuevo Sketch.
+2. Conecta tu Arduino UNO a tu computadora mediante el cable USB.
+3. En la pestaña superior, ve a **Herramientas**, selecciona **Placa**, y elige **Arduino Uno (Herramientas->Placa->Arduino Uno)**.
 ![Imagen5](img/Imagen6.jpg)
-4. DE igual manera en la pestaña de herramientas, ve a la opcion **Puerto** y selecciona el puerto **COM** donde esta conectado. **(Herramientas->Puerto->COM#)**
+4. Del mismo modo, en la pestaña de herramientas, selecciona el puerto **COM** al que está conectado tu Arduino **(Herramientas->Puerto->COM#)**.
 ![Imagen6](img/Imagen7.png)
-5. Ingresa el siguiente codigo
+5. Ingresa el siguiente código Arduino en el editor:
 
     ```arduino
 
@@ -59,12 +59,12 @@ Arduino es una plataforma de hardware y software de código abierto para la crea
     }
     ```
 
-6. Una vez escrito el codigo hay que verificarlo en el boton **Verficar** para comprobar que no haya errores de sintaxis
+6. Una vez escrito el código, verifica que no haya errores de sintaxis haciendo clic en el botón **Verificar**.
 ![Imagen8](img/Imagen8.png)
 ![Imagen9](img/Imagen9.png)
 
-7. Una vez verificado, haremos click en el boton de cargar
+7. Cuando el código se verifique sin errores, carga el programa en tu Arduino haciendo clic en el botón de carga.
 ![Imagen10](img/Imagen10.png)
 ![Imagen11](img/Imagen11.png)
 
-8. Comprobar que en tu placa Arduino encienda el LED
+8. Comprueba que el LED de tu placa Arduino se encienda.
