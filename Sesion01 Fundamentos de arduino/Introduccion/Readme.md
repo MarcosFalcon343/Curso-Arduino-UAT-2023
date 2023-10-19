@@ -1,5 +1,30 @@
 # Introduccion a la sesion 01
 
+## Índice
+
+1. [Introducción a la Sesión 01](#introduccion-a-la-sesion-01)
+2. [¿Qué es Arduino?](#qué-es-arduino)
+3. [¿Para qué sirve Arduino?](#para-qué-sirve-arduino)
+4. [Placas de Desarrollo Arduino](#placas-de-desarrollo-arduino)
+   - [Placas Core](#core)
+   - [Placas Mkr](#mkr)
+   - [Placas Nano](#nano)
+5. [Placas de Desarrollo Independientes de la Familia Arduino](#placas-de-desarrollo-independientes-de-la-familia-arduino)
+   - [ESP8266](#esp8266)
+   - [ESP32](#esp32)
+   - [Raspberry Pi](#raspberry-pi)
+   - [PIC](#pic)
+6. [Arduino UNO R3](#arduino-uno-r3)
+   - [Pines (Pin Out)](#pines-pin-out)
+        - [Pines de Alimentación](#pines-de-alimentacion)
+        - [Pines Analógicos](#pines-analogicos)
+        - [Pines Digitales](#pines-digitales)
+            - [PWM](#pwm)
+        - [Comunicación](#comunicacion)
+            - [Comunicación I2C](#comunicación-i2c)
+            - [Comunicación SPI](#comunicación-spi)
+            - [Comunicación UART](#comunicación-uart)
+
 ## ¿Qué es Arduino?
 
 Arduino es una plataforma de hardware y software libre, basada en un microcontrolador, diseñada para facilitar el uso de la electrónica en proyectos multidisciplinares. Arduino es una tecnología con el uso de directo de hardware y software.
