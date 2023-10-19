@@ -46,7 +46,6 @@ Arduino es una plataforma de hardware y software de código abierto para la crea
 5. Ingresa el siguiente código Arduino en el editor:
 
     ```arduino
-
     int led = 13;
     void setup()
     {
