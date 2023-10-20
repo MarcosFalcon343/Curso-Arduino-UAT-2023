@@ -24,6 +24,24 @@
             - [Comunicación I2C](#comunicación-i2c)
             - [Comunicación SPI](#comunicación-spi)
             - [Comunicación UART](#comunicación-uart)
+7. [Arduino IDE](#arduino-ide)
+8. [Programacion en Arduino IDE](#programacion-en-arduino-ide)
+   - [Estructura de programas](#estructura-de-los-programas-en-arduino-ide)
+9. [Tipos de datos](#tipos-de-datos)
+   - [byte](#byte)
+   - [char](#char)
+   - [float](#float)
+   - [double](#double)
+   - [int](#int)
+   - [long](#long)
+   - [string primitivo](#string-sin-objecto)
+   - [String()](#string)
+   - [array](#array)
+10. [Funciones y definiciones](#funciones-y-definiciones)
+      - [Definicion de pines](#definiciones-del-pin)
+      - [pinMode()](#pinmode)
+      - [digitalWrite()](#digitalwrite)
+      - [delay](#delay)
 
 ## ¿Qué es Arduino?
 
@@ -497,7 +515,9 @@ x = mySensVals[4];
 
 ```
 
-## Definiciones del pin
+## Funciones y definiciones
+
+### Definiciones del pin
 
 Para definir los pines de los sensores o actuadores puede ser de la siguiente manera:
 
