@@ -20,7 +20,7 @@
 3. **Encender y apagar un led con un pulsador**
    - Encendido/apagado que controla una luz LED, demostrando los conceptos básicos de control y retroalimentación.
 
-4. **Fizz Buzz**
+4. **Fizz Buzz (Actvidad)**
    - "Fizz Buzz" es un juego o ejercicio comúnmente utilizado en la programación para enseñar conceptos básicos de control de flujo y lógica a los principiantes. El objetivo es imprimir una serie de números y aplicar ciertas reglas a esos números mientras los imprimes. Las reglas son las siguientes:
      - Para cada número del 1 al n (donde n es un número determinado):
      - Si el número es divisible por 3, imprime "Fizz" en lugar del número.
@@ -29,11 +29,8 @@
      - Si el número no cumple con ninguna de las reglas anteriores, imprime el número tal como es.
    En esta ocasión, los alumnos encenderán un led dependiendo de cada condición dos segundos.
 
-5. **Semáforo peatonal**
+5. **Semáforo peatonal (Actividad)**
    - Crea un semáforo peatonal interactivo con LEDs para simular situaciones reales de tráfico urbano.
 
-6. **Contador de personas**
+6. **Contador de personas (Actividad)**
    - Diseña un contador de personas que registre el número de veces que se pulsa un botón.
-
-7. **Juego de Simon**
-   - Reproduce el clásico juego de memoria Simon Says utilizando LEDs para mostrar patrones y pulsadores para que los usuarios repitan los patrones.
